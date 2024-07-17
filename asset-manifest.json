@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Octi_Site.github.io/static/css/main.4332db6d.css",
-    "main.js": "/Octi_Site.github.io/static/js/main.de28a1b9.js",
+    "main.css": "/Octi_Site.github.io/static/css/main.5d23126f.css",
+    "main.js": "/Octi_Site.github.io/static/js/main.a6fed299.js",
     "static/media/about-background.png": "/Octi_Site.github.io/static/media/about-background.5ed80286087c5366993a.png",
     "static/media/home-banner-background.png": "/Octi_Site.github.io/static/media/home-banner-background.5ed80286087c5366993a.png",
     "static/media/home-banner-image.png": "/Octi_Site.github.io/static/media/home-banner-image.2abbc5c25b85b32590d6.png",
     "static/media/about-background-image.png": "/Octi_Site.github.io/static/media/about-background-image.549f9afc5c99f510b136.png",
     "static/media/Logo.svg": "/Octi_Site.github.io/static/media/Logo.2b37c9fbd60980beb910311966cf049a.svg",
     "index.html": "/Octi_Site.github.io/index.html",
-    "main.4332db6d.css.map": "/Octi_Site.github.io/static/css/main.4332db6d.css.map",
-    "main.de28a1b9.js.map": "/Octi_Site.github.io/static/js/main.de28a1b9.js.map"
+    "main.5d23126f.css.map": "/Octi_Site.github.io/static/css/main.5d23126f.css.map",
+    "main.a6fed299.js.map": "/Octi_Site.github.io/static/js/main.a6fed299.js.map"
   },
   "entrypoints": [
-    "static/css/main.4332db6d.css",
-    "static/js/main.de28a1b9.js"
+    "static/css/main.5d23126f.css",
+    "static/js/main.a6fed299.js"
   ]
 }
