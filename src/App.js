@@ -5,6 +5,7 @@ import Work from "./Components/Work";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import { Analytics } from "@mui/icons-material";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
+      <Analytics/>
     </div>
   );
 }
