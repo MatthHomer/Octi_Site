@@ -3,7 +3,6 @@ import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
-import { Analytics } from "@vercel/analytics/react"
 
 const Home = () => {
   return (

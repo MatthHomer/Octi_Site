@@ -5,7 +5,7 @@ import Work from "./Components/Work";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import { Analytics } from "@mui/icons-material";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
