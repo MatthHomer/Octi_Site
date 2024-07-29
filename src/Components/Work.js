@@ -7,35 +7,35 @@ const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Esolha a categoria necessária",
+      title: "Escolha a categoria necessária",
       text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et.",
     },
     {
       image: ChooseMeals,
       title: "Agenda dia e horário",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et.",
     },
     {
       image: DeliveryMeals,
       title: "Converse com o profissional",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum.",
     },
   ];
+
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Funcionamento</p>
         <h1 className="primary-heading">Como irá funcionar</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
         </p>
       </div>
       <div className="work-section-bottom">
         {workInfoData.map((data) => (
           <div className="work-section-info" key={data.title}>
             <div className="info-boxes-img-container">
-              <img src={data.image} alt="" />
+              <img src={data.image} alt="" className="info-boxes-img" />
             </div>
             <h2>{data.title}</h2>
             <p>{data.text}</p>

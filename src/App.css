@@ -8,6 +8,7 @@
 img {
   max-width: 100%;
   height: auto;
+  resize: contain;
 }
 
 .App {
@@ -84,7 +85,14 @@ nav {
 .home-banner-container {
   position: relative;
   display: flex;
-  padding-top: 3rem;
+  padding-top: 10rem;
+}
+
+.home-image-section {
+  padding-top: 90px;
+  padding-left: 50px;
+  max-width: 600px;
+  flex: 1;
 }
 
 .home-bannerImage-container {
@@ -93,12 +101,6 @@ nav {
   right: -300px;
   z-index: -2;
   max-width: 1000px;
-}
-
-.home-image-section {
-  padding-top: 250px;
-  max-width: 600px;
-  flex: 1;
 }
 
 .home-text-section {
@@ -172,7 +174,7 @@ nav {
 }
 
 .about-section-image-container img {
-  max-width: 70%;
+  max-width: 50%;
   height: auto;
   image-rendering: auto; /* Tenta melhorar a qualidade da imagem redimensionada */
   resize: contain;
@@ -362,6 +364,21 @@ nav {
   margin: 1rem 2rem;
 }
 
+
+.info-boxes-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-boxes-img {
+  max-width: 80px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  resize: contain;
+  align-items: center;
+  justify-content: center;
+}
+
 .work-section-info h2 {
   margin: 1rem 0rem;
 }
@@ -536,4 +553,15 @@ nav {
   .about-background-image-container {
     display: none;
   }
+
+  .home-banner-container {
+    padding-top: 3rem;
+  }
+  
+  .home-image-section {
+    padding-top: 200px;
+    padding-left: 3rem;
+  }
+  
+
 }
