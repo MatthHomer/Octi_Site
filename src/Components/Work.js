@@ -7,18 +7,18 @@ const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Escolha a categoria necessária",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et.",
+      title: "Defina como buscar o profissional",
+      text: "Temos várias maneiras de localizar o melhor profissional (locadidade, categoria, avaliação média e etc...)",
     },
     {
       image: ChooseMeals,
-      title: "Agenda dia e horário",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et.",
+      title: "Agende dia e horário",
+      text: "Com o profissional em mãos, selecione o melhor dia e horário para a visita.",
     },
     {
       image: DeliveryMeals,
       title: "Converse com o profissional",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum.",
+      text: "Liberamos a conversa pelo Whatsapp para você detalhar melhor os serviços",
     },
   ];
 
@@ -26,9 +26,11 @@ const Work = () => {
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Funcionamento</p>
-        <h1 className="primary-heading">Como irá funcionar</h1>
+        <h1 className="primary-heading">Como funciona</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Em poucos toques, a pessoa interessada nos serviços da categoria seleciona, 
+          poderá agendar uma visita na sua casa, conversar com o profissional para detalhar
+          o trabalho e após tudo, ainda poderá avaliar e também favoritar os melhores prestadores. 
         </p>
       </div>
       <div className="work-section-bottom">

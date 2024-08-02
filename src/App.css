@@ -24,6 +24,8 @@ body {
   background-color: #f6f6f6;
 }
 
+/* Navbar */
+
 nav {
   display: flex;
   align-items: center;
@@ -34,19 +36,21 @@ nav {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.3); /* Cor de fundo com sombra embassada */
+  background-color: rgba(255, 255, 255, 0.3);
   z-index: 1000;
-  padding: 0 2rem; /* Ajuste o padding para afastar o conteúdo das bordas */
+  padding: 0 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-links-container, .nav-logo-container, .navbar-menu-container {
-  padding: 0 1rem; /* Ajuste o padding interno dos containers dentro da navbar */
+  padding: 0 1rem;
 }
 
-
-.navbar-menu-container {
-  display: flex;
+.navbar-links-container {
+  background-color: rgba(255, 255, 255, 0.624);
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 .navbar-links-container a {
@@ -55,6 +59,10 @@ nav {
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+.navbar-menu-container {
+  display: flex;
 }
 
 .primary-button {
@@ -69,10 +77,6 @@ nav {
   transition: 0.2s;
 }
 
-.navbar-cart-icon {
-  font-size: 1.15rem;
-}
-
 .primary-button:hover {
   background-color: rgb(234, 234, 234);
 }
@@ -82,6 +86,8 @@ nav {
   cursor: pointer;
 }
 
+/* Home */
+
 .home-banner-container {
   position: relative;
   display: flex;
@@ -90,17 +96,17 @@ nav {
 
 .home-image-section {
   padding-top: 90px;
-  padding-left: 50px;
-  max-width: 600px;
+  padding-left: 100px;
+  max-width: 550px;
   flex: 1;
 }
 
 .home-bannerImage-container {
   position: absolute;
   top: -100px;
-  right: -300px;
+  right: -350px;
   z-index: -2;
-  max-width: 1000px;
+  max-width: 900px;
 }
 
 .home-text-section {
@@ -112,10 +118,11 @@ nav {
 }
 
 .primary-heading {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 600;
+  font-size: clamp(2rem, 4.5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
-  max-width: 600px;
+  line-height: 4.5rem;
+  max-width: 500px;
 }
 
 .primary-text {
@@ -126,7 +133,7 @@ nav {
 }
 
 .secondary-button {
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
   background-color: #05A0BB;
   outline: none;
   border: none;
@@ -150,6 +157,29 @@ nav {
   background-color: #05A0BB;
 }
 
+/* Adicione isso ao seu arquivo CSS */
+.download-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem; /* Espaçamento entre os itens */
+}
+
+.store-icons-container {
+  display: flex;
+  gap: 1rem; /* Espaçamento entre os ícones */
+}
+
+.store-icon {
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+  cursor: pointer;
+}
+
+/* Outros estilos permanecem os mesmos */
+
+
+/* About */
+
 .about-section-container {
   margin-top: 20rem;
   position: relative;
@@ -169,14 +199,15 @@ nav {
 }
 
 .about-section-image-container {
-  flex: 0.9;
-  margin-right: 1rem;
+  flex: 1;
+  margin-right: 3rem;
+  padding-right: 1rem;
 }
 
 .about-section-image-container img {
   max-width: 50%;
   height: auto;
-  image-rendering: auto; /* Tenta melhorar a qualidade da imagem redimensionada */
+  image-rendering: auto; 
   resize: contain;
 }
 
@@ -190,7 +221,7 @@ nav {
 .primary-subheading {
   font-weight: 700;
   color: #05A0BB;
-  font-size: 1.15rem;
+  font-size: 1.50rem;
 }
 
 .about-buttons-container {
@@ -329,8 +360,18 @@ nav {
   margin-top: 1.5rem;
 }
 
+.profile-icon {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  border-radius: 50%; /* Aplica o border-radius para tornar a imagem circular */
+}
+
 .work-section-wrapper {
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 
 .work-section-top p {

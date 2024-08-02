@@ -31,22 +31,18 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">Sobre</p>
         <h1 className="primary-heading">
-          Este aplicativo organiza todo mundo
+          Nosso app ajuda a organizar tudo
         </h1>
         <p className="primary-text">
-          Com ele, fica fácil do prestador de serviços se organizar e
-          a pessoa que irá contratar que poderá agendar o serviço com 
-          maior organização
-        </p>
-        <p className="primary-text">
-          Temos inúmeros benefícios dentro do app
-          venha tirar sua dúvida sobre como ele funciona.
+          Buscamos ajudar as pessoas a encontrarem
+          prestadores de serviços qualificados e ajudar
+          os prestadores com ferramentas exclusivas. 
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Saiba Mais</button>
-          <button className="watch-video-button">
+{/*           <button className="watch-video-button">
             <BsFillPlayCircleFill /> Assista ao vídeo
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
