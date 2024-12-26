@@ -4,6 +4,7 @@ import { AiFillInstagram  } from "react-icons/ai";
 import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,7 +30,7 @@ const Footer = () => {
           <span>(51) 9 9630-1302</span>
           <span>comercial@quidittas.com.br</span>
           <span>suporte@quidittas.com.br</span>
-          <span>duvidas@quidittas.com.br</span>
+          <Link to="/privacidade">Termos e privacidade</Link>
         </div>
 {/*         <div className="footer-section-columns">
           <span>Termos & Condições</span>

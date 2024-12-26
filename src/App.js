@@ -1,23 +1,40 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Work from "./Components/Work";
 import Testimonial from "./Components/Testimonial";
-import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import { Analytics } from '@vercel/analytics/react';
+import Privacity from "./Components/Privacidade";
+import Login from "./App/login";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <About />
-      <Work />
-      <Testimonial />
-      {/* <Contact /> */}
-      <Footer />
-      <Analytics/>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          {/* Página principal com todas as seções */}
+          <Route
+            path="/"
+            element={
+              <>
+                <Home />
+                <About />
+                <Work />
+                <Testimonial />
+                <Footer />
+                <Analytics />
+              </>
+            }
+            />
+          {/* Página de login separada */}
+          <Route path="/privacidade" element={<Privacity />} />
+          {/* <Route path="/login" element={<Login />} /> */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
